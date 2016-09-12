@@ -48,6 +48,7 @@ public class ExternalStorageDemoActivity extends Activity {
                 // lesen und schreiben nicht möglich
                 canRead = false;
                 canWrite = false;
+
         }
         Log.d(TAG, "Lesen ist" + (canRead ? "" : " nicht") + " möglich");
         Log.d(TAG, "Schreiben ist" + (canWrite ? "" : " nicht") + " möglich");
